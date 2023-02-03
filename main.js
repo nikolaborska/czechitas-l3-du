@@ -9,7 +9,7 @@ let jmenoUzivatele = prompt("Zadej své celé jméno: ");
 //vek uzivatele
 let vek = document.querySelector(".vek");
 let rok = 2023;
-let vekUzivatele = Number(prompt("Zadej svůj věk: "));
+let vekUzivatele = Number(prompt("Zadej svůj rok narození: "));
 let vypocetVeku = (rok - vekUzivatele);
 
 //vek.innerHTML = vypocetVeku;
@@ -21,8 +21,8 @@ document.body.innerHTML += "<p>" + jmenoUzivatele + " " + vypocetVeku + "</p>";
 let barva = document.querySelector(".barva");
 let barvaUzivatele = prompt("Zadej svou oblíbenou barvu v anglickém jazyce: ");
 
+
 barva.innerHTML = barvaUzivatele;
 
 //prebarveny text
-jmenoUzivatele.style.color = "barvaUzivatele";
-
+barva.style.color = barvaUzivatele;
