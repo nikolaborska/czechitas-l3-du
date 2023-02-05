@@ -15,7 +15,7 @@ let vypocetVeku = (rok - vekUzivatele);
 vek.innerHTML = vypocetVeku;
 
 //vypis jmena, prijmeni a vek 
-document.body.innerHTML += "<p>" + jmenoUzivatele + " " + vypocetVeku + "</p>";
+//document.body.innerHTML += "<p>" + jmenoUzivatele + " " + vypocetVeku + "</p>";
 
 //oblibena barva uzivatele
 let barva = document.querySelector(".barva");
