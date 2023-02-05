@@ -25,8 +25,8 @@ let barvaUzivatele = prompt("Zadej svou oblíbenou barvu v anglickém jazyce: ")
 barva.innerHTML = barvaUzivatele;
 
 //prebarveny text
-barva.style.color = barvaUzivatele;
-jmeno.style.color = barvaUzivatele;
-vek.style.color = barvaUzivatele;
+barva.style.color += barvaUzivatele;
+jmeno.style.color += barvaUzivatele;
+vek.style.color += barvaUzivatele;
 
 
